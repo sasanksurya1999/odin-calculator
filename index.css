@@ -1,10 +1,9 @@
 .container{
-    display: flex;
+    flex: 1 0 0;
     flex-direction: column;
-    height: 600px;
+    justify-content: flex-start;
     width: 400px;
     border-radius: 10px;
-    overflow: hidden;
     border: 1px solid;
     background-color: rgb(65, 65, 65);
 }
@@ -13,14 +12,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
 
 }
 html{
     height: 100%;
 }
 .display{
-    display: flex;
+    flex: 1 0 0;
     flex-direction: column;
     background-color: beige;
     border: 1px solid ;
@@ -32,6 +30,7 @@ html{
     overflow: auto;
 }
 .input{
+    flex:1 0 0;
     padding: 10px;
     border:0px;
     margin: 0px;
@@ -42,7 +41,6 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
     padding: 5px;
 }
 button{
@@ -55,7 +53,6 @@ button{
     border: 0px;
 }
 .table{
-    height: 100%;
     display: flex;
     margin:10px;
     border-radius: 10px;
